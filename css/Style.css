@@ -9,8 +9,9 @@ html {
 
 .fond {
     background-image: url("../images/fond.png");
-    background-repeat: no-repeat;
     ;
+   background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sepresenter {
