@@ -10,6 +10,7 @@ html {
 .fond {
     background-image: url("../images/fond.png");
     ;
+    background-repeat: no-repeat;
 }
 
 .sepresenter {
