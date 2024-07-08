@@ -7,6 +7,12 @@ html {
     line-height: 1.15;
 }
 
+.w-70{
+    width:70%;
+    display: flex;
+    margin:auto auto
+}
+
 .fond {
     background-image: url("../images/fond.png");
     ;
@@ -18,6 +24,7 @@ html {
     text-align: center;
 
 }
+
 
 body {
     margin: 0;
@@ -125,6 +132,7 @@ a :hover {
     list-style-type: none;
 }
 
+
 .timeline:before {
     position: absolute;
     left: 50%;
@@ -142,11 +150,26 @@ a :hover {
     background: -ms-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
     background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
 
-    z-index: 5;
+    z-index: 0;
+}
+
+.bi-facebook:hover {
+    color:blue
+}
+.bi-linkedin:hover{
+    color:rgb(26, 26, 108)
+}
+.bi-envelope-fill:hover{
+    color:red
 }
 
 .timeline li {
     padding: 1em 0;
+}
+
+.ImageLogo{
+    height:50%;
+    width:50%
 }
 
 .timeline li:after {
