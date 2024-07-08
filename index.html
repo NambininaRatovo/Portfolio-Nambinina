@@ -7,46 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <title>Portfolio de Ratovolalao Nambinina</title>
     <!-- Lien CSS -->
-    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap-icons-1.8.3/bootstrap-icons.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect » href=" https://fonts.gstatic.com » crossorigin>
-    <link href="https://fonts.googleapis.com/css2? display=swap » rel=" feuille de style">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Icones -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 
 <body>
     <!-- Barre de Navigation -->
-
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
             <h1 class="m-0 display-5">
                 <span class="text-primary">Ratovolalao Nambinina</span> Folio
             </h1>
         </a>
+    
         <!-- Bouton pour Responsive Device -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button> <br>
+        </button>
+    
+        <!-- Contenu du menu -->
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#Accueil" class="nav-item nav-link"><i class="bi bi-house"></i> Accueil</a>
-                <a href="#Profil" class="nav-item nav-link "><i class="bi bi-person-circle"></i> Profil</a>
-                <a href="#Parcours" class="nav-item nav-link "><i class="bi bi-mortarboard"></i> Parcours</a>
-                <a href="#Projets" class="nav-item nav-link "><i class="bi bi-wallet2"></i> Portfolio</a>
-                <a href="#Contact" class="nav-item nav-link "><i class="bi bi-envelope"></i> Contact</a>
-            </div>
-
+            <ul class="navbar-nav m-auto py-0">
+                <li class="nav-item"><a href="#Accueil" class="nav-link"><i class="bi bi-house"></i> Accueil</a></li>
+                <li class="nav-item"><a href="#Profil" class="nav-link"><i class="bi bi-person-circle"></i> Profil</a></li>
+                <li class="nav-item"><a href="#Parcours" class="nav-link"><i class="bi bi-mortarboard"></i> Parcours</a></li>
+                <li class="nav-item"><a href="#Projets" class="nav-link"><i class="bi bi-wallet2"></i> Portfolio</a></li>
+                <li class="nav-item"><a href="#Contact" class="nav-link"><i class="bi bi-envelope"></i> Contact</a></li>
+            </ul>
         </div>
     </nav>
-
-
+    
 
     <!-- Partie Entête -->
     <div class="container-fluid d-flex align-items-center mb-6 fond py-5" id="Accueil">
@@ -64,7 +65,7 @@
 
                     <!-- Boutons -->
                     <div>
-                        <a href="CV_RATOVOLALAO_Nambinina_2022[1].pdf"
+                        <a href="CV RATOVOLALAO Nambinina.pdf"
                             onclick="window.open(this.href, '_blank'); return false;"
                             class="btn btn-outline-secondary CV mr-4">
                             <i class="bi bi-save2"></i> Télécharger mon CV </a>
@@ -86,10 +87,10 @@
             </div>
             <br>
             <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid Popa rounded w-100" src="images/info.jpg" alt="Watawata Test">
+                <div class="col-lg-6 ">
+                    <img class="img-fluid rounded w-70" src="images/Nambs.jpeg" alt="Image Profil">
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <h3 class="text-secondary"> Concépteur Développeur D'Application</h3>
                     <p><i> Je m'appelle RATOVOLALAO Nambinina, j'ai un Master1 en Informatique du Parcours Génie
                             Logiciel.
@@ -101,60 +102,59 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-gift"></i>&nbsp;&nbsp; Naissance:<span
-                                    class="text-primary">&nbsp;&nbsp;13
+                            <h6><i class="bi bi-gift"></i>  Naissance:<span
+                                    class="text-primary">  13
                                     Mars
                                     1995</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-calendar3"></i>&nbsp;&nbsp; Age: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27</span>
+                            <h6><i class="bi bi-calendar3"></i> Age: <span
+                                    class="text-primary">29</span>
                             </h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-geo-alt"></i>&nbsp;&nbsp; Adresse: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IAM 59 A
+                            <h6><i class="bi bi-geo-alt"></i> Adresse: <span
+                                    class="text-primary">IAM 59 A
                                     Fiombonana
                                     Itaosy</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-dribbble"></i>&nbsp;&nbsp; Passion: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;Foot,
+                            <h6><i class="bi bi-dribbble"></i>Passion: <span
+                                    class="text-primary">Foot,
                                     Karaté,
                                     Lecture</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-book"></i>&nbsp;&nbsp; Etudes: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CNTEMAD-MADAGASCAR</span>
+                            <h6><i class="bi bi-book"></i>   Etudes: <span
+                                    class="text-primary">      CNTEMAD-MADAGASCAR</span>
                             </h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-mortarboard"></i>&nbsp;&nbsp; Diplôme: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;Master</span></h6>
+                            <h6><i class="bi bi-mortarboard"></i> Diplôme: <span
+                                    class="text-primary">Master</span></h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-envelope"></i>&nbsp;&nbsp; E-Mail: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ratovolalao.contact@gmail.com</span>
+                            <h6><i class="bi bi-envelope"></i> E-Mail: <a href="mailto:ratovolalao.contact@gmail.com" class="text-primary">
+                            ratovolalao.contact@gmail.com</a>
                             </h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-telephone"></i>&nbsp;&nbsp; Contact: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;+261344384694</span>
+                            <h6><i class="bi bi-telephone"></i> Contact: <a href="tel:+261344384694" class="text-primary">+261344384694</a>
                             </h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-facebook"></i>&nbsp;&nbsp; facebook: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp; Nambinina Ratovo</span>
+                            <h6><i class="bi bi-facebook"></i> facebook: <a href="https://www.facebook.com/nambininiaina.ratovo?mibextid=ZbWKwL" class="text-primary">Ratovolalao Nambinina</a>
+
                             </h6>
                         </div>
                         <div class="col-sm-6 py-2">
-                            <h6><i class="bi bi-whatsapp"></i>&nbsp;&nbsp; Contact: <span
-                                    class="text-primary">&nbsp;&nbsp;&nbsp;&nbsp;+261344384694</span>
+                            <h6><i class="bi bi-whatsapp"></i> Contact: <a href="https://wa.me/+261344384694" class="text-primary">+261344384694</a>
+
                             </h6>
                         </div>
                     </div>
                     <!-- Boutons -->
-                    <a href="CV_RATOVOLALAO_Nambinina_2022[1].pdf"
+                    <a href="CV RATOVOLALAO Nambinina.pdf"
                         onclick="window.open(this.href, '_blank'); return false;"
                         class="btn btn-outline-secondary CV mr-4">
                         <i class="bi bi-save2"></i> Télécharger mon CV </a>
@@ -171,14 +171,14 @@
                                 <span class="caption">Java</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                        aria-valuemin="0" aria-valuemax="100">85%</div>
+                                        aria-valuemin="0" aria-valuemax="100">80%</div>
                                 </div>
                             </div>
                             <div class="progress-wrapper wow fadeInUp" data-aos="fade-right">
                                 <span class="caption">C#</span>
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                                        aria-valuemin="0" aria-valuemax="100">82%</div>
                                 </div>
                             </div>
                             <div class="progress-wrapper wow fadeInUp" data-aos="fade-right">
@@ -191,8 +191,8 @@
                             <div class="progress-wrapper wow fadeInUp" data-aos="fade-right">
                                 <span class="caption">Javascript</span>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="50"
-                                        aria-valuemin="0" aria-valuemax="100">50%</div>
+                                    <div class="progress-bar" role="progressbar" style="width: 86%;" aria-valuenow="50"
+                                        aria-valuemin="0" aria-valuemax="100">86%</div>
                                 </div>
                             </div>
                         </div>
@@ -225,41 +225,28 @@
     <!-- Mon Parcours -->
     <div class="container-fluid Parcours py-5" id="Parcours">
         <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center ">
+            <div class="position-relative d-flex align-items-center justify-content-center mb-5">
                 <h1 class="mb-30">MON PARCOURS</h1>
             </div>
 
             <!-- Parcours -->
 
-            <link
-                href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
-                rel='stylesheet' type='text/css'>
-            <div>
-
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <!-- The Timeline -->
-
-                    <ul class="timeline">
-
-
+            <div class="row  m-10">
+                <div class="col-lg-12 col-md-12 pb-4 pb-lg-0 ">
+                    <!-- Timeline pour l'éducation -->
+                    <ul class="timeline align-content-center">
                         <!-- Item 1 -->
                         <li>
                             <div class="direction-r" data-aos="fade-down-right">
-                                <h3 class="text-bg-warning text-center"><i
-                                        class="bi bi-mortarboard"></i>&nbsp;&nbsp;Education</h3>
-                                <br><br><br>
+                                <h3 class="text-bg-warning text-center mb-5"><i class="bi bi-mortarboard"></i>Education</h3>
                                 <div class="flag-wrapper">
                                     <span class="flag">Inclusiv Academy</span>
                                     <span class="time-wrapper"><span class="time">2022</span></span>
                                 </div>
-                                <div class="desc">Stage de Formatione en tant que <br>
-                                    Concépteur Développeur d'Application Numérique
-                                </div>
+                                <div class="desc">Stage de Formation en tant que Concépteur Développeur d'Application Numérique</div>
                             </div>
-                        </li><br><br>
-
+                        </li>
+            
                         <!-- Item 2 -->
                         <li>
                             <div class="direction-l" data-aos="fade-down-left">
@@ -267,12 +254,10 @@
                                     <span class="flag">CNTEMAD-MADAGASCAR</span>
                                     <span class="time-wrapper"><span class="time">2021</span></span>
                                 </div>
-                                <div class="desc">Master1 en Informatique,<br>
-                                    Parcours Génie Logiciel.
-                                </div>
+                                <div class="desc">Master 1 en Informatique, Parcours Génie Logiciel.</div>
                             </div>
-                        </li><br><br><br><br><br><br>
-
+                        </li>
+            
                         <!-- Item 3 -->
                         <li>
                             <div class="direction-r" data-aos="fade-down-right">
@@ -280,88 +265,95 @@
                                     <span class="flag">CNTEMAD-MADAGASCAR</span>
                                     <span class="time-wrapper"><span class="time">2019</span></span>
                                 </div>
-                                <div class="desc">
-                                    Licence en Informatique,<br>
-                                    Parcours Génie Logiciel.
-
-                                </div>
+                                <div class="desc">Licence en Informatique, Parcours Génie Logiciel.</div>
                             </div>
                         </li>
-
                     </ul>
                 </div>
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <!-- The Timeline -->
-                    <ul class="timeline">
-
+            
+                <div class="col-lg-12 col-md-12 pb-4 pb-lg-0">
+                    <!-- Timeline pour les expériences -->
+                    <ul class="timeline align-content-center">
                         <!-- Item 1 -->
                         <li>
-
                             <div class="direction-r" data-aos="fade-down-right">
-                                <h3 class="text-bg-info text-center"><i class="bi bi-gear"></i>&nbsp;&nbsp;Expériences
-                                </h3>
-                                <br><br><br>
+                                <h3 class="text-bg-info text-center mb-5"><i class="bi bi-gear"></i>Expériences</h3>
                                 <div class="flag-wrapper">
-                                    <span class="flag">Inclusiv Academy</span>
-                                    <span class="time-wrapper"><span class="time">2022</span></span>
+                                    <span class="flag">Bocasay Madagascar</span>
+                                    <span class="time-wrapper"><span class="time">2023</span></span>
                                 </div>
-                                <div class="desc">Stage de Formatione en tant que Concépteur Développeur d'Application
-                                    Numérique
-                                    en etant Agile
-                                    <br>
-                                    Tâches: <br> Analyse des besoins <br>
-                                    - Conception en UML <br>
-                                    - Redaction des Cahier de charges <br>
-                                    - Développement (en langage Java, C#, ...) <br>
-                                    - Déployement et Suivie.
-
+                                <div class="desc">
+                                    Développeur<br>
+                                    Tâches:<br>
+                                    - Analyse des besoins<br>
+                                    - Conception de Site Web sous UMBRACO<br>
+                                    - Création de Widget sous ZOHO
                                 </div>
                             </div>
                         </li>
-
+            
                         <!-- Item 2 -->
                         <li>
                             <div class="direction-l" data-aos="fade-down-left">
                                 <div class="flag-wrapper">
-                                    <span class="flag">Duel</span>
-                                    <span class="time-wrapper"><span class="time">2020</span></span>
+                                    <span class="flag">Inclusiv Academy</span>
+                                    <span class="time-wrapper"><span class="time">2022</span></span>
                                 </div>
-                                <div class="desc">Agent de Maintenance <br>Tâches: <br> - Installation et maintenance de
-                                    réseau
-                                    Informatique dans divers Infrastructures Publiques.
+                                <div class="desc">
+                                    Stage de Formation en tant que Concépteur Développeur d'Application Numérique en étant Agile<br>
+                                    Tâches:<br>
+                                    - Analyse des besoins<br>
+                                    - Conception en UML<br>
+                                    - Rédaction des Cahiers de charges<br>
+                                    - Développement (en langage Java, C#, ...)<br>
+                                    - Déploiement et Suivi.
                                 </div>
                             </div>
                         </li>
-
+            
                         <!-- Item 3 -->
                         <li>
                             <div class="direction-r" data-aos="fade-down-right">
+                                <div class="flag-wrapper">
+                                    <span class="flag">Duel</span>
+                                    <span class="time-wrapper"><span class="time">2020</span></span>
+                                </div>
+                                <div class="desc">
+                                    Agent de Maintenance<br>
+                                    Tâches:<br>
+                                    - Installation et maintenance de réseau Informatique dans divers Infrastructures Publiques.
+                                </div>
+                            </div>
+                        </li>
+            
+                        <!-- Item 4 -->
+                        <li>
+                            <div class="direction-l" data-aos="fade-down-left">
                                 <div class="flag-wrapper">
                                     <span class="flag">Cabinet De Géomètre Expert</span>
                                     <span class="time-wrapper"><span class="time">2017-2021</span></span>
                                 </div>
                                 <div class="desc">
-                                    Tâches: <br>
-                                    - Gestion de base de données <br>
-                                    - Refection de Plans <br>
+                                    Tâches:<br>
+                                    - Gestion de base de données<br>
+                                    - Réfection de Plans<br>
                                     - Assistant Opérateur Géomètre
-
                                 </div>
                             </div>
                         </li>
-
                     </ul>
                 </div>
             </div>
+            
 
         </div>
-    </div><!-- Fin Parcours --> <br><br><br><br>
+    </div><!-- Fin Parcours --> 
 
     <!--  Section Projets -->
     <div class="container-fluid py-5" id="Projets">
-        <div class="container">
+        <div class="container mb-5 pb-5">
             <div class="position-relative d-flex align-items-center justify-content-center ">
-                <div>
+                <div class="mb-5">
                     <h1 class="mb-30">PORTFOLIO</h1>
                 </div>
             </div>
@@ -369,65 +361,33 @@
             <!-- Portfolio page -->
             <div class=" container-fluid vg-page page-portfolio" id="portfolio">
                 <div class="container">
-                    <div class="text-center wow fadeInUp">
-                        <div class="badge badge-subhead">Portfolio</div>
-                    </div><br><br>
+                    <div class="row justify-content-center">
+                        <div class="card m-3" style="width: 18rem;">
+                            <img src="images/zoho-logo-web.svg " class="card-img-top mt-5 pt-5 mb-5" alt="Zoho">
+                            <div class="card-body">
+                                <h5 class="card-title">ZOHO</h5>
+                                <p class="card-text">Création de Widget avec Reeact pour le compte des clients de l'etreprise Brainsolutions
+                                </p>
 
-                    <div class="row">
-
-                        <div class="grid-item apps wow zoomIn col-md-6">
-                            <div class="img-place" data-src="../assets/img/work/work-1.jpg" data-fancybox
-                                data-caption="<h5 class='fg-theme'>Mobile Travel App</h5> <p>Travel, Discovery</p>">
-                                <img src="images/logoBrain.png" alt="">
-                                <div class="img-caption">
-                                    <h5 class="fg-theme">Brain</h5>
-                                    <p>Brain est une application Desktop,<br>
-                                        Qui est un annuaire éléctronique</p><br><br><br><br><br><br>
-                                    <h4>EN COURS</h4>
-                                    <p>GO 2.0 est une application Web,<br>
-                                        et une amélioration de la version précedente
-                                    </p>
-                                </div>
                             </div>
                         </div>
-                        <div class="grid-item template wireframes wow zoomIn col-md-6">
-                            <div class="img-place" data-src="../assets/img/work/work-2.jpg" data-fancybox
-                                data-caption="<h5 class='fg-theme'>Music App</h5> <p>Musics</p>">
-                                <div class="img-caption">
-                                    <h5 class="fg-theme">Projet GO</h5>
-                                    <p>GO est une application Desktop,<br>
-                                        C'est un logiciel Intérrogeable SI-RH </p>
+                    
+                        <div class="card m-3" style="width: 18rem;">
+                            <img src="images/umbraco_logo_blue05.png" class="card-img-top" alt="Umbraco">
+                            <div class="card-body">
+                                <h5 class="card-title">Umbraco</h5>
+                                <p class="card-text">Création de Site-Web avec Umbraco</p>
+                                
+                            </div>
+                        </div>
 
-                                </div>
-                                <div class="position-relative d-flex align-items-center justify-content-center ">
-
-                                    <div id="carouselExampleControls" class="carousel  slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner car">
-
-                                            <div class="carousel-item active">
-                                                <img src="images/ProjetGo2.png" class="d-block w-100" alt="...">
-                                            </div>
-
-                                            <div class="carousel-item">
-                                                <img src="images/projetGo3.png" class="d-block w-100" alt="...">
-                                            </div>
-
-                                        </div>
-
-                                        <button class="carousel-control-prev" type="button"
-                                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-
-                                        <button class="carousel-control-next" type="button"
-                                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-
-                                    </div>
-                                </div>
+                        
+                        <div class="card m-3" style="width: 18rem;">
+                            <img src="images/R.jfif" class="card-img-top mt-5  mb-5 pb-2" alt="Umbraco">
+                            <div class="card-body">
+                                <h5 class="card-title">Azure</h5>
+                                <p class="card-text">Création de workflow logic-App et syncronisation des fonctions azures</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -437,12 +397,10 @@
         </div> <!-- End Portfolio page -->
 
 
-
-
         <!-- ======= Contact Section ======= -->
-        <br><br><br><br><br><br><br>
-        <div id="Contact" class="paddsection">
-            <div class="container">
+        
+        <div id="Contact" class="paddsection mb-5">
+            <div class="container mb-5">
                 <div class="contact-block1">
                     <div class="row">
 
@@ -455,7 +413,8 @@
                                         <li><span>IAM 59 A Fiombonana, Itaosy</span></li>
                                         <li><span>Antananarivo, Madagascar</span></li>
                                         <li><span>+261 344384694</span></li>
-                                        <li><span>ratovolalao.contact@gmail.com</span></li>
+                                        <li><a href="mailto:ratovolalao.contact@gmail.com" >
+                            ratovolalao.contact@gmail.com</a></li>
                                     </ul>
 
                             </div>
@@ -509,17 +468,17 @@
                     </div>
                 </div>
             </div>
-        </div><!-- Fin Contact  --> <br> <br> <br> <br>
+        </div><!-- Fin Contact  --> 
 
         <!-- ======= Footer ======= -->
-        <div id="footer" class="text-center">
+        <div id="footer" class="text-center mt-5 pt-5">
             <div class="container">
                 <div class="socials-media text-center">
 
                     <ul class="list-unstyled">
-                        <li><a href="https://www.facebook.com/nambininiaina.ratovo"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="http://www.gmail.com"><i class="bi bi-envelope"></i></a></li>
-                        <li><a href="http://www.linkedin.com"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/nambininiaina.ratovo?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="mailto:ratovolalao.contact@gmail.com"><i class="bi bi-envelope-fill"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ratovolalao-nambinina?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a></li>
                     </ul>
 
                 </div>
@@ -532,18 +491,15 @@
 
 
 
-
-
         <!-- Vendor, Javascript, Php -->
-        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
         <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
         <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="assets/vendor/typed.js/typed.min.js"></script>
         <script src="assets/vendor/php-email-form/validate.js"></script>
 
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
